@@ -2,7 +2,7 @@
   "name": "blinkit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
@@ -15,7 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.0",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "js-sha512": "^0.8.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
